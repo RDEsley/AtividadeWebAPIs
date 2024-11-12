@@ -1,0 +1,27 @@
+{
+    "clientes": [
+      {"id": 1, "nome": "Richard Eu", "email": "richard@gmail.com"},
+      {"id": 2, "nome": "Fernanda Mey", "email": "mey@gmail.com"}
+    ],
+    "produtos": [
+      {"id": 1, "nome": "Produto A", "preco": 100.00},
+      {"id": 2, "nome": "Produto B", "preco": 50.00}
+    ],
+    "pedidos": [
+      {"id": 1, "cliente_id": 1, "produto_id": 1, "quantidade": 2},
+      {"id": 2, "cliente_id": 2, "produto_id": 2, "quantidade": 1}
+    ],
+    "estoque": [
+      {"produto_id": 1, "quantidade": 100},
+      {"produto_id": 2, "quantidade": 50}
+    ],
+    "entregas": [
+      {"id": 1, "pedido_id": 1, "status": "Em andamento"},
+      {"id": 2, "pedido_id": 2, "status": "Entregue"}
+    ],
+    "pagamentos": [
+      {"id": 1, "pedido_id": 1, "status": "Pago"},
+      {"id": 2, "pedido_id": 2, "status": "Pendente"}
+    ]
+  }
+  
