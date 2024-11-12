@@ -8,7 +8,7 @@ Este projeto é uma implementação básica de uma API usando Python e Flask. O 
    ```bash
    pip install flask
 
-##Execute o arquivo app.py:
+## Execute o arquivo app.py:
 # Acesse no navegador ou via ferramenta de API:
 
 Utilize um dos links no seu navegador para vizualizar o Arquivo em Json: 
